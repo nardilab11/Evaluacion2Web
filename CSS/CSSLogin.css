@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+#cabecera{
+    background-color: #F28B0C;
+    
+}
+.titulos{
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 250%;
+}
+#login{
+    text-align: center;
+    background-color: #D93D04;
+    padding: 10px;
+}
+#botonLogin{
+    width: 250px;
+}
