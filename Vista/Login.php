@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <header id="cabecera">
     <h1 class="titulos">Pizza Hat Spa</h1>
     <h2 class="titulos">Servicio de domicilio</h2>
