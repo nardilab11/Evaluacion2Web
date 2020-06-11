@@ -1,7 +1,7 @@
 body{
     background-color: #D93D04;
     margin: 0px;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 #tituloMenuLogin{
     font-size: 400%;
@@ -19,8 +19,8 @@ body{
 }
 .botonLinkMenu{
     background-color: #F2BC79;
-    margin: 40px;
-    padding: 40px;
+    margin: 35px;
+    padding: 35px;
 }
 .linkMenu:hover{
     color: white;

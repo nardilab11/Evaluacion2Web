@@ -1,5 +1,4 @@
 <?php
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -28,11 +27,10 @@ class ControladorPedidoCliente implements InterfazPedidoCliente {
     }
 }
 
-if(isset($_POST{"telefono"}) && isset($_POST{"nombre"}) && isset($_POST{"apellido"}) && isset($_POST{"direccion"})){
-    $telefono = $_POST{"telefono"};
-    $nombre = $_POST{"nombre"};
-    $apellido = $_POST{"apellido"};
-    $direccion = $_POST{"direccion"};
+if(true){
+    $telefono = $_POST["telefono"];
+    $nombre = $_POST["nombre"];
+    $apellido = $_POST["apellido"];
+    $direccion = $_POST["direccion"];
     $_SESSION["user"] = serialize(new Cliente($telefono, $nombre, $apellido, $direccion));
 }
-
