@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once '../Modelo/Pedido.php';
 include_once '../Modelo/Cliente.php';
 
